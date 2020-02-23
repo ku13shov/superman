@@ -508,6 +508,10 @@ font-family: 'Lato', sans-serif;  */
     width: 525px;
     margin: 0 auto;
   }
+  .footer__inner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 @media (max-width: 1105px) {
   .logos-box {
@@ -543,6 +547,13 @@ font-family: 'Lato', sans-serif;  */
   }
   .reviews__title {
     font-size: 36px;
+  }
+  .footer-col__logo, .footer-col__knowledge, .footer-col__company, .footer-col__contact {
+    margin: 0 10px 20px;
+    width: 263px;
+  }
+  .footer__inner { 
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 919px) {
@@ -592,6 +603,15 @@ font-family: 'Lato', sans-serif;  */
   }
   .offers__inner-item__btn a {
     padding: 22px 104px;
+  }
+  .footer-col__img {
+    margin-bottom: 5px;
+  }
+  .footer-col__title {
+    margin-bottom: 5px;
+  }
+  .footer-col__list a {
+    line-height: 20px;
   }
 }
 @media (max-width: 761px) {
@@ -643,6 +663,10 @@ font-family: 'Lato', sans-serif;  */
   }
   .logos-box {
     padding: 50px 0 50px;
+  }
+  .footer__inner {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 @media (max-width: 700px) {
@@ -706,6 +730,9 @@ font-family: 'Lato', sans-serif;  */
   }
   .logos-box {
     padding: 25px 0 25px;
+  }
+  .footer__inner {
+    justify-content: center;
   }
 }
 @media (max-width: 530px) {
@@ -844,6 +871,10 @@ font-family: 'Lato', sans-serif;  */
   }
   .logos-box {
     padding: 10px 0 10px;
+  }
+  .footer__inner {
+    padding-top: 40px;
+    padding-bottom: 30px;
   }
 }
 
