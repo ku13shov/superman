@@ -509,6 +509,14 @@ font-family: 'Lato', sans-serif;  */
     margin: 0 auto;
   }
 }
+@media (max-width: 1105px) {
+  .logos-box {
+    flex-wrap: wrap;
+  }
+  .logos-box__img {
+    margin: 0 auto;
+  }
+}
 @media (max-width: 955px) {
   .top {
     min-height: 776px;
@@ -633,6 +641,9 @@ font-family: 'Lato', sans-serif;  */
   .reviews {
     min-height: 590px;
   }
+  .logos-box {
+    padding: 50px 0 50px;
+  }
 }
 @media (max-width: 700px) {
   .top-img {
@@ -692,6 +703,9 @@ font-family: 'Lato', sans-serif;  */
   }
   .reviews {
     min-height: 630px;
+  }
+  .logos-box {
+    padding: 25px 0 25px;
   }
 }
 @media (max-width: 530px) {
@@ -827,6 +841,9 @@ font-family: 'Lato', sans-serif;  */
   }
   .reviews-slider li {
     margin-top: 0px;
+  }
+  .logos-box {
+    padding: 10px 0 10px;
   }
 }
 
