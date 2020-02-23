@@ -5,8 +5,16 @@ $(function(){
     slidesToShow: 2,
     slidesToScroll: 2,
     arrows: false,
-    dots: true
-
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 1201,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+    ]
   });
 
   $('.menu-btn').on('click', function(){
